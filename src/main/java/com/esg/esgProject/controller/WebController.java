@@ -1,4 +1,4 @@
-package com.esg.esgProject;
+package com.esg.esgProject.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

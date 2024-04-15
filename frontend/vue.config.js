@@ -4,7 +4,7 @@ const { defineConfig } = require('@vue/cli-service')
 // })
 module.exports = {
   outputDir: "../src/main/resources/static",
-  indexPath: "../static/templates/index.html",
+  indexPath: "../templates/index.html",
   devServer: {
     port: 8070, //프론트 포트 package.json도 수정
     proxy: {
