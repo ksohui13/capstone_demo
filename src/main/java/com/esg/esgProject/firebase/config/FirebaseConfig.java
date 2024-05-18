@@ -1,4 +1,4 @@
-package com.esg.esgProject.config;
+package com.esg.esgProject.firebase.config;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;

@@ -1,4 +1,4 @@
-package com.esg.esgProject.controller;
+package com.esg.esgProject.firebase.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +8,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class VueIndexController {
     @GetMapping("vue")
-    public String hello() {
-        return "index";
-    }
+    public String hello() {return "index";}
 }
